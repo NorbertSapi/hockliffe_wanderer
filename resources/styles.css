@@ -1,5 +1,127 @@
 
 body {
-    background-color: rgb(202, 96, 167);
+    /*background-color: rgb(202, 96, 167);*/
+    background-color: #B82F65;
     font-size: 16px;
 }
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(93, 7, 110);
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(245, 222, 17);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(233, 219, 29);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(88, 86, 86);
+    color: white;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown .dropbtn:hover {
+    color: black;
+  }
+
+  /* Main Banner */
+
+  .container {
+    display: flex;
+  }
+
+  .banner {
+    width: 90%;
+    max-height: 700px;
+    justify-content: center;
+    margin: 30px auto;
+  }
+
+  #motto{
+    border: 3px solid black;
+    z-index: 2;
+    /*padding: 5px 90px;
+    margin-top: 30px;
+    margin-left: 40px;
+    position: absolute;*/
+    width: 100%;
+    background-color: beige;
+
+  } 
+
+  div img{
+    z-index: 1;
+    border: 3px solid black;
+    width: 100%;
+    height: 600px;
+  }
+
+
+  #motto h1{
+    text-align: center;
+  }
+
+  /* Footer */
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(93, 7, 110);
+    color: white;
+  }
