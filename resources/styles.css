@@ -6,7 +6,7 @@ body {
 }
 
 /* Navbar container */
-.navbar {
+  .navbar {
     overflow: hidden;
     background-color: rgb(93, 7, 110);
     font-family: Arial;
@@ -115,8 +115,70 @@ body {
 
   /*********************************************** GOAL ***********************************************/
 
+  #container_goal{
+    border: 15px solid gold;
+    margin: 20px;
+  }
   .goal {
     border: 3px solid black;
+    background-color: beige;
+    height: 180px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto 10px;
+  }
+
+
+  .img_goal{
+    width: 60%;
+    height: auto;
+    margin: 10px 20px 10px 20px;
+  }
+
+  /********************************************Exercise ***********************************************/
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 3px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .responsive {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
   /*********************************************** Footer *********************************************/
@@ -132,20 +194,47 @@ body {
     color: aqua;
   }
 
-  /* Media Quaries */
+  /************************************************************* Media Quaries *************************************/
 
-  @media only screen and (min-width: 851px) and (max-width: 1050px) {
+
+  /***** Main Banner *******/
+  @media only screen and (max-width: 700px) {
     .banner{
       width: 80%;
     }
+
+    #container_goal {
+      flex-direction: column;
+    }
+    .img_goal {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* this is the Exercise section */
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
   }
 
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 500px)  {
     .banner{
       width: 70%;
     }
 
     #motto h1{
       font-size: 1.5rem;
+      margin: 20px;
+      padding: 10px;
     }
-  }
+
+    #container_goal {
+      flex-direction: column;
+    }
+
+    /*********** Exercise Section *********/
+    .responsive {
+      width: 100%;
+    }
+}
