@@ -87,8 +87,9 @@ body {
   }
 
   .banner {
-    width: 90%;
-    max-height: 700px;
+    width: 80%;
+    /*max-height: 700px;*/
+    height: 80%;
     justify-content: center;
     margin: 30px auto;
   }
@@ -138,61 +139,42 @@ body {
 
   /********************************************Exercise ***********************************************/
 
-  #walking {
-    border: 5px solid black;
-    padding: 20px;
-    text-align: center;
+  /*********************** Walking ***************/
+  .desc {
     background-color: beige;
+    text-align: center;
   }
 
-  div.gallery {
-    border: 1px solid #ccc;
-  }
-  
-  div.gallery:hover {
-    border: 3px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
+  .activity_h2 {
+    background-color: beige;
+    padding: 20px;
     text-align: center;
+    margin: 50px 20px 20px;
   }
   
-  * {
-    box-sizing: border-box;
-  }
-  
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 20%;
+  /************* Nigth *****************/
+
+  ul {
     display: flex;
     flex-wrap: wrap;
-  }
-  
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
     }
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
+    li {
+    height: 40vh;
+    flex-grow: 1;
+    margin: 20px;
+    list-style: none;
+    }
+
+    img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    }
 
   /*********************************************** Footer *********************************************/
 
-  #space {
-    height: 250px;
-  }
 
   footer {
     position: fixed;
@@ -213,7 +195,7 @@ body {
 
 
   /***** Main Banner *******/
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 900px) {
     .banner{
       width: 80%;
     }
@@ -226,16 +208,22 @@ body {
       margin-left: auto;
       margin-right: auto;
     }
-    /* this is the Exercise section */
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
+
+    /*********** Exercise Section *********/
+    /*** Walking ***/
+
+
+    /*** Night ***/
+    #night_h2 {
+      margin-top: 160px;
+      height: 80px;
+      border: 5px solid green;
     }
   }
 
   @media only screen and (max-width: 500px)  {
     .banner{
-      width: 70%;
+      width: 50%;
     }
 
     #motto h1{
@@ -244,9 +232,19 @@ body {
       padding: 10px;
     }
 
+    /*** Mott ***/
     #container_goal {
       flex-direction: column;
     }
 
     /*********** Exercise Section *********/
+    /*** Walking ***/
+
+
+    /*** Night ***/
+
+    ul {
+      margin: 10px;
+    }
+
 }
