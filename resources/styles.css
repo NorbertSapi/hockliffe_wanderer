@@ -146,6 +146,9 @@ body {
     padding: 10px;
     margin-bottom: 20px;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
   }
 
   .activity_h2 {
@@ -156,6 +159,12 @@ body {
   }
   
   /************* Nigth *****************/
+  div.black {
+    background-color: black;
+    border: 10px solid #f9f9f9;
+    height: 800px;
+    width: 100%;
+  }
 
   ul {
     display: flex;
