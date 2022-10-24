@@ -208,14 +208,14 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:space-around;
+  justify-content:space-evenly;
   margin: 20px;
  }
 
   #facebook_icon{
-    margin: 10px;
-    width: 20%;
-    height: 20%;
+    margin-top: 50px;
+    width: 10%;
+    height: 10%;
   }
 
 
