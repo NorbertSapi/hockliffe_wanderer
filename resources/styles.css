@@ -178,10 +178,11 @@ div.black {
 ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   }
 
   li {
-  height: 40vh;
+  height: 15rem;
   flex-grow: 1;
   margin: 20px;
   list-style: none;
@@ -197,12 +198,13 @@ ul {
   /**************************** Contact ******************************/
 
   .contact_us {
-    border: 5px solid black;
+    /*border: 5px solid black;*/
     text-align: center;
     margin: 5px auto;
-    height: 400px;
-    width: 90%;
-
+    background-color: powderblue;
+    width: 30rem;
+    height: 4rem;
+    border: none;
   }
 
  .icon_main {
@@ -210,16 +212,30 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content:space-evenly;
-  margin: 20px;
+  /*margin: 20px;*/
+  border: none;
  }
 
   .image_icon{
-    margin-top: 50px;
-    width: 3%;
-    height: 3%;
+    /*border: 3px solid white;
+    background-color: white;*/
+    margin-top: 1rem;
+    width: 6%;
+    height: 6%;
+    border: none;
   }
 
+  .contact_message_main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    /*justify-content:space-evenly;*/
+  }
 
+  .proba {
+    
+  }
 
   /*************************** SPACE ********************/
 
@@ -264,7 +280,9 @@ footer {
   }
 
   /*********** Exercise Section *********/
-
+  li {
+    height: 20rem;
+  }
   /*** Night ***/
   #night_h2 {
     margin-top: 160px;
@@ -291,7 +309,9 @@ footer {
 
   /*********** Exercise Section *********/
   /*** Walking ***/
-
+  li {
+    height: 10rem;
+  }
 
   /*** Night ***/
 
