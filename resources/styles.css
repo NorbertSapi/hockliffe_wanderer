@@ -98,7 +98,7 @@ body {
 .banner {
   width: 80%;
   /*max-height: 700px;*/
-  height: 80%;
+  height: 1100px;
   justify-content: center;
   margin: 30px auto;
 }
@@ -196,6 +196,12 @@ ul {
   }
 
   /**************************** Contact ******************************/
+
+
+  .dark_list {
+    background-color: black;
+    padding: 1rem;
+  }
 
   .contact_us {
     /*border: 5px solid black;*/
@@ -316,7 +322,7 @@ footer {
   /*** Night ***/
 
   ul {
-    margin: 10px;
+    margin: 0.5rem;
   }
 
 }
