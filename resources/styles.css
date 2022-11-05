@@ -90,18 +90,22 @@ body {
 }
 
 /****************************** Main Banner *************************************/
+#container_goal{
+  background-color: darkgray;
+  padding: 5rem;
+}
 
 .container {
   display: flex;
 }
 
 .banner {
-  max-width: 70rem;
+  max-width: 50rem;
   /*max-height: 700px;*/
   height: auto;
   justify-content: center;
-  margin: 30px auto;
-  border: 3px solid green;
+  margin: 10px auto;
+  border: 20px solid rgb(104, 99, 99);
 }
 
 #motto{
