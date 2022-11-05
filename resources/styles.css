@@ -96,11 +96,12 @@ body {
 }
 
 .banner {
-  width: 80%;
+  max-width: 70rem;
   /*max-height: 700px;*/
-  height: 1100px;
+  height: auto;
   justify-content: center;
   margin: 30px auto;
+  border: 3px solid green;
 }
 
 #motto{
