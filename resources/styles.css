@@ -89,7 +89,7 @@ body {
   border-radius: 25px 0 0 25px;
 }
 
-/****************************** Main Banner *************************************/
+/****************************** Main Banner *************************************
 #container_goal{
   background-color: darkgray;
   padding: 5rem;
@@ -101,7 +101,7 @@ body {
 
 .banner {
   max-width: 50rem;
-  /*max-height: 700px;*/
+  /*max-height: 700px;*
   height: auto;
   justify-content: center;
   margin: 10px auto;
@@ -125,7 +125,57 @@ div img{
 
 #motto h1{
   text-align: center;
+} /*
+
+/***** Main Trial *********/
+
+.container_main {
+  display: flex;
+  height: 30rem;
+  padding: 1rem;
 }
+
+.main_flex {
+  justify-content: center;
+  align-items: center;
+  height: 27rem;
+  width: 80rem;
+  padding: 10px auto;
+  margin: 10px auto;
+}
+
+.main_label {
+}
+
+#main_label{
+  background-color: azure;
+  position:absolute;
+  height: 400px;
+  width: 40%;
+  padding-left: 30%;
+}
+
+#text_main{
+  text-align: center;
+  margin: 25% 10% 25% 40%;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+#main_img {
+  position: relative;
+  left:0;
+  height:400px;
+  width: 60%;
+}
+
+#main_img img{
+  width: 100%;
+  border-radius: 0 50% 50% 0;
+}
+
+/**************************************************************************  https://stackoverflow.com/questions/19338323/how-to-place-a-div-below-another-div ***********************************/
 
 /*********************************************** GOAL ***********************************************/
 
@@ -147,7 +197,7 @@ div img{
 .img_goal{
   width: 60%;
   height: auto;
-  margin: 10px 20px 10px 20px;
+  margin: 10px auto 10px auto;
 }
 
 /********************************************Exercise ***********************************************/
