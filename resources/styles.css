@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1rem 1rem;
   text-decoration: none;
 }
 
@@ -228,7 +228,6 @@ ul {
   }
 
   .contact_us {
-    /*border: 5px solid black;*/
     text-align: center;
     margin: 5px auto;
     background-color: powderblue;
@@ -345,7 +344,6 @@ footer {
     position:absolute;
     height: 250px;
     width: 40%;
-    /*padding-left: 30%;*/
     padding-left: 40%;
   }
   
