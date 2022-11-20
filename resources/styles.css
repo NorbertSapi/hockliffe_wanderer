@@ -33,7 +33,7 @@ body {
   border: none;
   outline: none;
   color: rgb(245, 222, 17);
-  padding: 14px 16px;
+  padding: 1rem 1rem;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
