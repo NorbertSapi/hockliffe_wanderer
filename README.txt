@@ -1,6 +1,6 @@
 Hockliffe Wanderer
 
-The main goal of this project is to creaate a website for an imanigary local walking group / organisation. The idea of the group came from a group of women from Hockliffe who started to meet to walk together first and meet in the local pub once in month. I use fictive pictures for the website. 
+The main goal of this project is to create a website for an imanigary local walking group / organisation. The idea of the group came from a group of women from Hockliffe who started to meet to walk together first and meet in the local pub once in month. I use fictive pictures for the website. 
 
 Programming language used: HTML5, CSS3
 
